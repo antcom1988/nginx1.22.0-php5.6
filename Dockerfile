@@ -3,8 +3,7 @@ FROM ubuntu:14.04.5
 MAINTAINER Donatas Navidonskis <donatas@navidonskis.com>
 
 ENV DEFAULT_LOCALE=en_US \
-	NGINX_VERSION=1.22.0
-
+	NGINX_VERSION=stable
 # let the container know that there is no tty
 ENV DEBIAN_FRONTEND noninteractive
 
